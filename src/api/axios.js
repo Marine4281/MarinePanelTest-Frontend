@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const BASE_DOMAIN = "marinepanel.online";
+const BASE_DOMAIN = "https://marine-panel-test-frontend.vercel.app";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || "/api",
